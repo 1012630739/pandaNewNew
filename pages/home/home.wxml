@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    <view class="block">
+      <t-navbar
+        t-class-placeholder="t-navbar-placeholder"
+        t-class-content="t-navbar-content"
+        title="天命西游攻略APP"
+        t-class-title="nav-title"
+      />
+    </view>
+    <view class="title-trademark">
+      <image style="width: 364rpx; height: 227rpx; display: inline-block; box-sizing: border-box; position: relative; left: 0rpx; top: -185rpx"
+        class="title-icon"
+        mode="aspectFit"
+        src="/assets/PANDANEWNEW.png"
+        aria-label="TDesign Logo"
+      />
+    </view>
+    <view class="title-QR_code">
+      <image style="position: relative; left: 0rpx; top: -177rpx; width: 554rpx; display: inline-block; box-sizing: border-box; height: 564rpx"
+        class="title-icon"
+        mode="aspectFit"
+        src="/assets/QR_code.jpg"
+        aria-label="TDesign Logo"
+      />
+    </view>
+
+    <view class="button-example" style="position: relative; left: -5rpx; top: -95rpx">
+      <t-button bindtap="page_to_catalogue" theme="primary" size="large">进入西游世界</t-button>
+    </view>
+  </view>
+</scroll-view>

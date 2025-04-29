@@ -1,0 +1,26 @@
+<view class="container" style="position: relative; left: 0rpx; top: -179rpx">
+  <view class="block" style="width: -2rpx; height: 193rpx; display: block; box-sizing: border-box">
+    <t-navbar
+      t-class-placeholder="t-navbar-placeholder"
+      t-class-content="t-navbar-content"
+      title="目录"
+      t-class-title="nav-title"
+    />
+  </view>
+  <t-cell-group theme="card">
+    <t-cell bindtap="page_to_normal_word" title="常用的名词解释" leftIcon="internet" hover arrow />
+    <t-cell bindtap="page_to_price_reference" title="游戏物品的价格参考" leftIcon="internet" hover arrow />
+    <t-cell bindtap="page_to_reject_detour" title="新手如何不走弯路" leftIcon="internet" hover arrow />
+    <t-cell bindtap="page_to_return" title="回归攻略（新手也一样可以看）" leftIcon="internet" hover arrow />
+    <t-cell bindtap="page_to_upgrade" title="关于升级" leftIcon="internet" hover arrow />
+    <t-cell bindtap="page_to_group" title="关于团本" leftIcon="internet" hover arrow />
+    <t-cell bindtap="page_to_weapon" title="关于武器" leftIcon="internet" hover arrow />
+    <t-cell bindtap="page_to_dashion" title="关于时装" leftIcon="internet" hover arrow />
+    <t-cell bindtap="page_to_mount" title="关于坐骑" leftIcon="internet" hover arrow />
+    <t-cell bindtap="page_to_surprising_encounter" title="关于奇遇" leftIcon="internet" hover arrow />
+    <t-cell bindtap="page_to_plugin" title="关于插件" leftIcon="internet" hover arrow />
+    <t-cell bindtap="page_to_power" title="关于势力" leftIcon="internet" hover arrow />
+    <t-cell bindtap="page_to_auto_script" title="关于自动打怪助手" leftIcon="internet" hover arrow />
+  </t-cell-group>
+
+</view>

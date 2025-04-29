@@ -1,0 +1,17 @@
+/**index.wxss**/
+/* .title-trademark {
+  width: 364rpx;
+  height: 227rpx;
+  display: inline-block;
+  box-sizing: border-box
+} */
+
+/* .title-QR_code {
+  width: 470rpx; 
+  height: 512rpx; 
+  display: inline-block; 
+  box-sizing: border-box; 
+  position: relative; 
+  left: 0rpx; 
+  top: -185rpx
+} */
