@@ -26,7 +26,11 @@
       />
     </view>
 
-    <view class="button-example" style="position: relative; left: -5rpx; top: -95rpx">
+    <view class="button-example" style="position: relative; left: 5rpx; top: -139rpx">
+      <t-button bindtap="page_to_update_QR" theme="primary" size="large">点击更新群二维码</t-button>
+    </view>
+
+    <view class="button-example" style="position: relative; left: 5rpx; top: -56rpx">
       <t-button bindtap="page_to_catalogue" theme="primary" size="large">进入西游世界</t-button>
     </view>
   </view>

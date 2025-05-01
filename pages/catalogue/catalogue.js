@@ -63,69 +63,94 @@ Page({
 
   },
 
-  page_to_normal_word: function () {
+  link_to_normal_word: function () {
+    const feishu_value = 'normal_word';
     wx.navigateTo({
-      url: '/pages/normal_word/normal_word'
-    })
+      url: `/pages/feishu_center/feishu_center?feishu_value=${feishu_value}`
+    });
   },
-  page_to_price_reference: function () {
+  link_to_price_reference: function () {
+    const feishu_value = 'price_reference';
     wx.navigateTo({
-      url: '/pages/normal_word/normal_word'
-    })
+      url: `/pages/feishu_center/feishu_center?feishu_value=${feishu_value}`
+    });
   },
-  page_to_reject_detour: function () {
+  link_to_reject_detour: function () {
+    const feishu_value = 'reject_detour';
     wx.navigateTo({
-      url: '/pages/normal_word/normal_word'
-    })
+      url: `/pages/feishu_center/feishu_center?feishu_value=${feishu_value}`
+    });
   },
-  page_to_return: function () {
+  link_to_return: function () {
+    const feishu_value = 'return';
     wx.navigateTo({
-      url: '/pages/normal_word/normal_word'
-    })
+      url: `/pages/feishu_center/feishu_center?feishu_value=${feishu_value}`
+    });
   },
-  page_to_upgrade: function () {
+  link_to_upgrade: function () {
+    const feishu_value = 'upgrade';
     wx.navigateTo({
-      url: '/pages/normal_word/normal_word'
-    })
+      url: `/pages/feishu_center/feishu_center?feishu_value=${feishu_value}`
+    });
   },
-  page_to_group: function () {
+  link_to_group: function () {
+    const feishu_value = 'group';
     wx.navigateTo({
-      url: '/pages/normal_word/normal_word'
-    })
+      url: `/pages/feishu_center/feishu_center?feishu_value=${feishu_value}`
+    });
   },
-  page_to_weapon: function () {
+  link_to_weapon: function () {
+    const feishu_value = 'weapon';
     wx.navigateTo({
-      url: '/pages/normal_word/normal_word'
-    })
+      url: `/pages/feishu_center/feishu_center?feishu_value=${feishu_value}`
+    });
   },
-  page_to_dashion: function () {
+  link_to_game_instance: function () {
+    const feishu_value = 'game_instance';
     wx.navigateTo({
-      url: '/pages/normal_word/normal_word'
-    })
+      url: `/pages/feishu_center/feishu_center?feishu_value=${feishu_value}`
+    });
   },
-  page_to_mount: function () {
+  link_to_dashion: function () {
+    const feishu_value = 'dashio';
     wx.navigateTo({
-      url: '/pages/normal_word/normal_word'
-    })
+      url: `/pages/feishu_center/feishu_center?feishu_value=${feishu_value}`
+    });
   },
-  page_to_surprising_encounter: function () {
+  link_to_mount: function () {
+    const feishu_value = 'mount';
     wx.navigateTo({
-      url: '/pages/normal_word/normal_word'
-    })
+      url: `/pages/feishu_center/feishu_center?feishu_value=${feishu_value}`
+    });
   },
-  page_to_plugin: function () {
+  link_to_surprising_encounter: function () {
+    const feishu_value = 'surprising_encounter';
     wx.navigateTo({
-      url: '/pages/normal_word/normal_word'
-    })
+      url: `/pages/feishu_center/feishu_center?feishu_value=${feishu_value}`
+    });
   },
-  page_to_power: function () {
+  link_to_plugin: function () {
+    const feishu_value = 'plugin';
     wx.navigateTo({
-      url: '/pages/normal_word/normal_word'
-    })
+      url: `/pages/feishu_center/feishu_center?feishu_value=${feishu_value}`
+    });
   },
-  page_to_auto_script: function () {
+  link_to_power: function () {
+    const feishu_value = 'power';
     wx.navigateTo({
-      url: '/pages/normal_word/normal_word'
-    })
+      url: `/pages/feishu_center/feishu_center?feishu_value=${feishu_value}`
+    });
+  },
+  link_to_auto_script: function () {
+    const feishu_value = 'auto_script';
+    wx.navigateTo({
+      url: `/pages/feishu_center/feishu_center?feishu_value=${feishu_value}`
+    });
+  },
+  link_to_handsome: function () {
+    const feishu_value = 'handsome';
+    wx.navigateTo({
+      url: `/pages/feishu_center/feishu_center?feishu_value=${feishu_value}`
+    });
   },
 })

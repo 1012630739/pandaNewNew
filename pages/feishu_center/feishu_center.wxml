@@ -1,0 +1,2 @@
+<!--pages/feishu_center/feishu_center.wxml-->
+<web-view src="{{webViewSrc}}"></web-view>

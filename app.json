@@ -2,7 +2,7 @@
   "pages": [
     "pages/home/home",
     "pages/catalogue/catalogue",
-    "pages/normal_word/normal_word"
+    "pages/feishu_center/feishu_center"
   ],
   "window": {
     "navigationBarTextStyle": "black",
